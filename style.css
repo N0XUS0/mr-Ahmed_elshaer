@@ -1,11 +1,12 @@
 body{
-  background-image: linear-gradient(to left,#ff902e,#290f02fd);
+  background-image: linear-gradient(to left,#000000,#000000fd);
 /* background-color: #ffffff; */
   text-transform: capitalize;
 color: #fff;
-font-family: "Inconsolata", monospace;
 
-font-weight: bold;
+
+
+font-family: "Brush Script MT", cursive;
 }
 
 
@@ -24,6 +25,7 @@ font-weight: bold;
 }
 
 .btn {
+ 
   text-decoration: none;
     color: #ffffff;
     cursor: pointer;
@@ -72,15 +74,23 @@ font-weight: bold;
     transform: skewX(-45deg);
 }
 
+.cons{
+  background-image: url(img/G1JO.gif);
+  background-repeat: no-repeat; 
+  background-size: 700px;
+ background-position: center;
+ backdrop-filter: var(--light-black);
+ background-clip: padding-box;
 
+}
 .img1{
     text-align: center;
     margin: 0% !important;
     
-    filter: drop-shadow(10px 7px 5px #232526 );
+    filter: drop-shadow(5px 3px 4px #232526 );
 }
 .img1 img{
-  width: 290px !important;
+  width: 220px !important;
 height: auto;
 margin-bottom: 1%;
 margin-top: -30px;
@@ -588,10 +598,10 @@ padding: 5px;
 
 .topnav {
   overflow: hidden;
-  background-image: linear-gradient(45deg, #f9943b 0%, #f9943b 100%);
+  background-image: linear-gradient(45deg, #c85103 0%, #5e2500 100%);
   z-index: 100;
   margin-bottom: 40px !important;
-  
+  border-radius: 20px;
 }
 
 .topnav a {
@@ -642,7 +652,7 @@ padding: 5px;
  
 #perloder{
   background:#000000 url(img/احمد\ صلاح.gif) no-repeat center !important;
-    background-size: 30rem !important;
+    background-size: 10rem !important;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -667,10 +677,45 @@ padding: 5px;
 }
 
 
+
+
+
+
+
+.reveal{
+  
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.bg1 {
+  background-color: #ccc;
+}
+.bg2 {
+  background-color: #333;
+}
+
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+.spacer {
+  height: 50vh;
+  background-color: #000;
+}
+
+
 .button-85 {
-  margin-top: 60px;
-  padding: 0.6em 2em;
+  margin-top: 30px;
+  padding: 0.3em 1em;
   border: none;
+
   outline: none;
   color: rgb(255, 255, 255);
   background: #111;
@@ -764,3 +809,9 @@ to {
 }
 }
 
+.container {
+  display: inline-block !important ;
+  align-content: center;
+  justify-content: center;
+  
+  font-size: 1.30em;}

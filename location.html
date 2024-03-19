@@ -6,9 +6,10 @@
     <title>data</title>
     <link rel="stylesheet" href="location.css">
     <link rel="stylesheet" href="ax.css">
+
 </head>
 <body>
-<!--   
+  
 
   
       <style>
@@ -18,7 +19,7 @@
       height: 90px;
     }
   </style>
-    <div class="nav">
+    <div class="nav" style="margin: 40px;">
     <h3>اضغط علي اسم السنتر للحصول علي بياناته</h3>
     </div>
     <style>
@@ -27,9 +28,9 @@
       }
     </style>
     <div class="loc">
-  
+    
         <div class="dropdown">
-            <button>سنتر جلاكسي</button>
+             <button>سنتر جلاكسي</button>
             <div class="dropdown-options">
               <a href="https://maps.app.goo.gl/Rz3krpAhLHowwmFN9" style="color: #fff;">اللوكيشن</a>
               <p style="color: rgb(0, 0, 0); padding: 5px; width: 900;"><i>العنوان <br> مزلقان كوفرتينا اعلي مسجد الشهداء</i>    </p>
@@ -38,7 +39,7 @@
           </div>
 
           <div class="dropdown">
-            <button>الفايف ستار</button>
+            <button style="font-size: 100px;">الفايف ستار</button>
             <div class="dropdown-options">
               <a href="https://maps.app.goo.gl/rVAh544ukMqt6Enc8" style="color: #fff;">اللوكيشن</a>
               <p style="color: rgb(0, 0, 0); padding: 5px; width: 900;"><i>العنوان <br> شارع الفريد عزبة النخل اعلي كشري زمزم </i>    </p>
@@ -107,6 +108,24 @@
 
 
         
-    </div> -->
+    </div>
+    <script>function reveal() {
+      var reveals = document.querySelectorAll(".reveal");
+    
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+    
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+    
+    window.addEventListener("scroll", reveal);
+    </script>
 </body>
 </html>

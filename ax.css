@@ -1,5 +1,5 @@
 body{
-  background-image: linear-gradient(to left,#ff902e,#290f02fd);
+  background-image: linear-gradient(to left,#000000,#000000fd);
 /* background-color: #ffffff; */
   text-transform: capitalize;
 color: #fff;
@@ -22,7 +22,7 @@ font-weight: bold;
     cursor:pointer;
     width: 9rem;
     height: 4rem;
-    background-image: linear-gradient(to right,#963f05 ,#552c05);
+    background-image: linear-gradient(to right,#232526 ,#232526 );
     color: #fff;
   }
   
@@ -59,10 +59,28 @@ font-weight: bold;
   .dropdown button {
     
     padding: 1px !important;
-    height: 90px !;
+    height: 70px !important;
+ 
 }.img1 img{
   width: 290px !important;
 height: auto;
 margin-bottom: 1%;
 margin-top: -30px;
+}
+
+
+.reveal{
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+.loc{
+
+  background-size: 10rem;
+  background-position: center ;
 }

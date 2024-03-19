@@ -1,6 +1,6 @@
 body{
-    background-image: linear-gradient(to left,#ff902e,#290f02fd);
-  /* background-color: #ffffff; */
+    background-image: linear-gradient(to left,#000000,#000000fd);
+    /* background-color: #ffffff; */
     text-transform: capitalize;
   color: #fff;
   font-family: "Inconsolata", monospace;
@@ -119,7 +119,7 @@ body{
         font-size:15px; 
         width:auto !important;
         border-radius: 30px;
-        background-color: #5a3e00b2 !important;
+        background-color: #1b1b1bb2 !important;
         margin: 2% !important;
         padding: 15px;
         
@@ -133,7 +133,7 @@ body{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap:30px;
-        filter: drop-shadow(10px 7px 5px #694501b2);
+        filter: drop-shadow(10px 7px 5px #222221b2);
 
        }
        @media (min-width:601px) and (max-width:767px) {

@@ -1,6 +1,6 @@
 body{
-    background-image: linear-gradient(to left,#ff902e,#290f02fd);
-  /* background-color: #ffffff; */
+    background-image: linear-gradient(to left,#000000,#000000fd);
+    /* background-color: #ffffff; */
     text-transform: capitalize;
   color: #fff;
   font-family: "Inconsolata", monospace;
